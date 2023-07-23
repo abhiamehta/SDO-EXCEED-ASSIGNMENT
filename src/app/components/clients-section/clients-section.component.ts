@@ -22,31 +22,31 @@ export class ClientsSectionComponent implements OnInit {
     };;
     this.clientsImgArr = [
       {
-        img: '../../../assets/images/client-1.png'
+        img: 'assets/images/client-1.png'
       },
       {
-        img: '../../../assets/images/client-2.png'
+        img: 'assets/images/client-2.png'
       },
       {
-        img: '../../../assets/images/client-3.png'
+        img: 'assets/images/client-3.png'
       },
       {
-        img: '../../../assets/images/client-4.png'
+        img: 'assets/images/client-4.png'
       },
       {
-        img: '../../../assets/images/client-5.png'
+        img: 'assets/images/client-5.png'
       },
       {
-        img: '../../../assets/images/client-6.png'
+        img: 'assets/images/client-6.png'
       },
       {
-        img: '../../../assets/images/client-7.png'
+        img: 'assets/images/client-7.png'
       },
       {
-        img: '../../../assets/images/client-8.png'
+        img: 'assets/images/client-8.png'
       },
       {
-        img: '../../../assets/images/client-9.png'
+        img: 'assets/images/client-9.png'
       }
     ];
   }
