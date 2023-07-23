@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('./styles/_fonts.scss');
+@import url('./styles/_animations.scss');
+@import url('./styles/_common.scss');
+
+* {
+    font-family: 'Poppins-Regular';
+}

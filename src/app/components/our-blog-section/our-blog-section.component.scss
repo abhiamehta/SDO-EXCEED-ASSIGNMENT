@@ -1,0 +1,99 @@
+.our-blog-container {
+    .post-3-columns {
+        .post-item {
+            border: none !important;
+
+            .post-item-wrap {
+                border: 1px solid #f2f2f2;
+
+                .post-image {
+                    position: relative;
+
+                    img {
+                        height: 100%;
+                        width: 100%;
+                    }
+
+                    .post-meta-category {
+                        background-color: #2250fc;
+                        color: #fff;
+                        font-size: 13px;
+                        padding: 2px 16px;
+                        border-radius: 50px;
+                        position: absolute;
+                        right: 10px;
+                        top: 11px;
+                        z-index: 3;
+                        margin-right: 0;
+
+                        a {
+                            color: #fff;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .post-item-description {
+            padding: 24px !important;
+            width: 100% !important;
+            line-height: 28px;
+            color: #676767;
+
+            .post-meta-date {
+                color: #C2C2C2;
+                position: relative;
+                top: -4px;
+                font-size: 12px;
+                margin-right: 8px;
+            }
+
+            .post-meta-comments {
+                color: #C2C2C2;
+                position: relative;
+                top: -4px;
+                font-size: 12px;
+                margin-right: 8px;
+
+                a {
+                    text-decoration: none;
+                    color: #C2C2C2;
+                }
+            }
+
+            &>h2 {
+                font-size: 18px;
+                letter-spacing: -0.1px;
+                line-height: 23px;
+                margin-bottom: 16px;
+                color: #444;
+                font-weight: 600;
+
+                &>a {
+                    font-size: 22px;
+                    letter-spacing: -0.1px;
+                    line-height: 23px;
+                    margin-bottom: 16px;
+                    color: #444;
+                    font-weight: 600;
+                    text-decoration: none;
+
+                    &:hover,
+                    &:active {
+                        text-decoration: none;
+                        outline: none;
+                        color: #2250fc;
+                    }
+                }
+            }
+
+            .item-link {
+                color: #484848;
+                font-size: 12px;
+                letter-spacing: 1px;
+                text-transform: uppercase !important;
+            }
+        }
+    }
+}

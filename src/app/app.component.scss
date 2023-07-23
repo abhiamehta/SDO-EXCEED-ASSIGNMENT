@@ -1,0 +1,109 @@
+.sdo-app-container {
+    padding: 0;
+    margin: 0;
+
+    .scroll-top-icon {
+        position: fixed;
+        right: 20px;
+        bottom: 8px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.25);
+        color: #fff;
+        z-index: 9999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #2250fc;
+        }
+    }
+
+    .nav-container {
+        position: absolute;
+        z-index: 100;
+        top: 0;
+
+        ::ng-deep {
+            .navbar {
+                .navbar-brand {
+                    font-family: "Poppins", sans-serif;
+                    font-size: 40px;
+                    color: #1f1f1f;
+                    font-weight: 800;
+                    letter-spacing: 1.5px;
+                }
+                .navbar-collapse{
+                    &.collapse{
+                        &.show{
+
+                        }
+                    }
+                }
+
+                .navbar-nav {
+                    .nav-link {
+                        color: #fff;
+                        text-transform: uppercase;
+                        font-size: 12px;
+                        font-weight: 600;
+                        letter-spacing: 0.6px;
+                        border-style: solid;
+                        border-color: transparent;
+                        transition: all .3s ease;
+                        line-height: normal;
+
+                        &::hover {
+                            color: #e2e2e2;
+                        }
+                    }
+                }
+
+                &.navbar-expand-lg {
+                    .navbar-collapse {
+                        justify-content: right;
+                    }
+                }
+
+                &.bg-light {
+                    .navbar-brand {
+                        color: #1f1f1f !important;
+                    }
+
+                    .navbar-nav {
+                        .nav-link {
+                            color: #1f1f1f;
+                        }
+                    }
+                }
+
+                &.fixed-top {
+                    padding: 0 20px;
+                    top: -40px;
+                    transform: translateY(40px);
+                    transition: transform .3s;
+                }
+            }
+        }
+    }
+
+    section {
+        padding: 80px 0;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        z-index: 1;
+        background-color: #fff;
+
+        &.p-0 {
+            padding: 0;
+        }
+
+        &.background-grey {
+            background-color: #F7F9FB;
+        }
+    }
+}

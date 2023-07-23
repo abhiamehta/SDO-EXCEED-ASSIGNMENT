@@ -1,0 +1,68 @@
+.services-section {
+    .icon-box {
+        margin-bottom: 50px;
+        position: relative;
+
+        &.border {
+            border: 0px !important;
+
+            .icon {
+                border: 3px solid #333;
+                text-align: center;
+                border-radius: 50%;
+                background-color: transparent;
+
+                i {
+                    color: #333;
+                }
+            }
+
+            &.small {
+                .icon {
+                    height: 46px;
+                    position: absolute;
+                    top: 5px;
+                    width: 46px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    i {
+                        font-size: 20px;
+                        line-height: 42px;
+                    }
+                }
+
+                &:hover {
+                    .icon {
+                        transform: scale(1.2);
+
+                        i {
+                            line-height: 49px;
+                            transform: scale(0.8);
+                        }
+                    }
+                }
+
+                &>h3 {
+                    font-size: 18px;
+                }
+            }
+
+            &.medium {
+                &>h3 {
+                    margin: 0 12px 10px 84px;
+                }
+
+                &>p {
+                    margin: 0 0 20px 84px;
+                }
+            }
+
+            // &:hover {
+            //     .icon {
+            //         border: none;
+            //     }
+            // }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+<div class="clients-container container">
+    <div class="heading-text heading-section text-center">
+        <h2 class="border-center">CLIENTS</h2>
+        <span class="lead">Our awesome clients we've had the pleasure to work with! </span>
+    </div>
+    <div class="cliens-caraousel-container">
+        <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="clientSlideConfig">
+            <div ngxSlickItem *ngFor="let client of clientsImgArr" class="slide">
+                <img src="{{ client.img }}" alt="" width="100%">
+            </div>
+        </ngx-slick-carousel>
+    </div>
+</div>

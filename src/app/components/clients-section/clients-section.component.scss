@@ -1,0 +1,42 @@
+.clients-container {
+    ::ng-deep {
+        .slick-slide {
+            padding: 20px 30px;
+        }
+
+        .slick-dots {
+            li {
+                button {
+                    width: 10px;
+                    height: 10px;
+                    cursor: pointer;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    background-color: transparent;
+                    box-shadow: inset 0 0 0 2px #ccc;
+                    transition: background 0.8s ease;
+
+                    &:before {
+                        content: '';
+                    }
+                }
+
+                &.slick-active {
+                    button {
+                        background-color: #ccc;
+                        box-shadow: 0 0 1px #ccc;
+                        transition: height 0.3s ease;
+                    }
+                }
+
+                &:hover {
+                    button {
+                        background-color: #ccc;
+                        box-shadow: 0 0 1px #ccc;
+                        transition: height 0.3s ease;
+                    }
+                }
+            }
+        }
+    }
+}

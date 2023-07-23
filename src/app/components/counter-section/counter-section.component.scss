@@ -1,0 +1,14 @@
+.counter-container {
+    position: relative;
+    padding: 150px 0;
+    color: #fff;
+    .counter-section{
+        position: relative;
+        .counter {
+            span {
+                font-size: 50px;
+                line-height: 40px;
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+.footer-content {
+    padding: 60px 0 40px 0;
+
+    .widget {
+        margin-bottom: 30px;
+        position: relative;
+
+        &::before {
+            clear: both;
+            content: " ";
+            display: table;
+        }
+
+        .widget-title {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 600;
+            font-style: normal;
+            text-transform: uppercase;
+            line-height: 24px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            text-transform: none;
+            line-height: 1.7;
+            letter-spacing: 0;
+            color: #777;
+        }
+
+        .btn {
+            font-family: "Poppins", sans-serif;
+            border-radius: 5px 5px 5px 5px;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: .5px;
+            text-decoration: none;
+            outline: none;
+            padding: 12px 18px;
+            position: relative;
+            text-transform: uppercase;
+            background-color: #2250fc;
+            border-color: #2250fc;
+            border-width: 1px;
+            border-style: solid;
+            color: #fff;
+            transition: all 0.3s;
+            margin-bottom: 6px;
+            outline: none;
+            line-height: 14px;
+            cursor: pointer;
+        }
+    }
+
+    .list {
+        list-style: none;
+        clear: both;
+        display: block;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+
+        li {
+            line-height: 32px;
+
+            a {
+                color: #484848;
+                font-weight: 400;
+                margin: 0;
+                padding: 0;
+                text-decoration: none;
+                background-color: transparent;
+            }
+        }
+    }
+}
+
+.copyright-content {
+    min-height: 80px;
+    padding: 30px 0;
+    background-color: #eff1f4;
+    font-size: 13px;
+
+    a {
+        color: #484848;
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        &:hover, &:focus, &:active {
+            text-decoration: none;
+            outline: none;
+            color: #2250fc;
+        }
+    }
+}
