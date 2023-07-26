@@ -19,7 +19,7 @@ export class ClientsSectionComponent implements OnInit {
       "slidesToScroll": 1, 
       "dots": true,
       "infinite": true,
-    };;
+    };
     this.clientsImgArr = [
       {
         img: 'assets/images/client-1.png'

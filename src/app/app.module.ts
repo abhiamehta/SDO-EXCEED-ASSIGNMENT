@@ -12,6 +12,7 @@ import { OurBlogSectionComponent } from './components/our-blog-section/our-blog-
 import { ClientsSectionComponent } from './components/clients-section/clients-section.component';
 import { TeamsSectionComponent } from './components/teams-section/teams-section.component';
 import { FooterSectionComponent } from './components/footer-section/footer-section.component';
+import { RecentWorksSectionComponent } from './components/recent-works-section/recent-works-section.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FooterSectionComponent } from './components/footer-section/footer-secti
     OurBlogSectionComponent,
     ClientsSectionComponent,
     TeamsSectionComponent,
-    FooterSectionComponent
+    FooterSectionComponent,
+    RecentWorksSectionComponent
   ],
   imports: [
     BrowserModule,

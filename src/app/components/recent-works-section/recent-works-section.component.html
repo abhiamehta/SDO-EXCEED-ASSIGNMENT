@@ -1,0 +1,101 @@
+<div class="recent-works-section">
+    <div class="container">
+        <div class="heading-text heading-section">
+            <h2>Recent Work</h2>
+            <span class="lead">Lorem ipsum dolor sit amet, coper suscipit lobortis nisl ut aliquip ex ea commodo
+                consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+                consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto.</span>
+        </div>
+    </div>
+    <div class="portfolio ">
+        <div class="portfolio-grid grid-layout ">
+            <div class="portfolio-item carousel-container">
+                <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="portFolioSlideConfig">
+                    <div ngxSlickItem *ngFor="let portfolio1 of porfolio1SlideArr" class="slide">
+                        <img loading="lazy" src="{{ portfolio1.img }}" alt="" width="100%">
+                    </div>
+                </ngx-slick-carousel>
+            </div>
+            <div class="portfolio-item img-container">
+                <div class="portfolio-img"><img loading="lazy" src="../../../assets//images/port-img-1.jpg" /></div>
+                <div class="overlay-section">
+                    <div class="portfolio-nav-img-container">
+                        <span class="portfolio-nav-img">
+                            <i class="fa fa-expand"></i>
+                        </span>
+                        <span class="portfolio-nav-img">
+                            <i class="fa fa-link"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item img-container">
+                <div class="portfolio-img"><img loading="lazy" src="../../../assets//images/port-img-2.jpg" /></div>
+                <div class="overlay-section">
+                    <div class="portfolio-description">
+                        <h3 class="animated-FadeInUp animatedFadeInUp fadeInUp animation-delay-200">Let's Go Outside
+                        </h3>
+                        <span class="animated-FadeInUp animatedFadeInUp fadeInUp animation-delay-200">Illustrations /
+                            Graphics</span>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item img-container">
+                <div class="portfolio-img"><img loading="lazy" src="../../../assets//images/port-img-3.jpg" /></div>
+                <div class="overlay-section">
+                    <div class="portfolio-nav-img-container">
+                        <span class="portfolio-nav-img">
+                            <i class="fa fa-expand"></i>
+                        </span>
+                        <span class="portfolio-nav-img">
+                            <i class="fa fa-link"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item img-container">
+                <div class="portfolio-img"><img loading="lazy" src="../../../assets//images/port-img-4.jpg" /></div>
+                <div class="overlay-section">
+                    <div class="overlay-section">
+                        <div class="portfolio-description">
+                            <h3 class="animated-FadeInUp animatedFadeInUp fadeInUp animation-delay-200">Last Iceland
+                                Sunshine</h3>
+                            <span
+                                class="animated-FadeInUp animatedFadeInUp fadeInUp animation-delay-200">Graphics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item img-container">
+                <div class="portfolio-img"><img loading="lazy" src="../../../assets//images/port-img-5.jpg" /></div>
+                <div class="overlay-section">
+                    <div class="portfolio-nav-img-container">
+                        <span class="portfolio-nav-img">
+                            <i class="fa fa-play"></i>
+                        </span>
+                        <span class="portfolio-nav-img">
+                            <i class="fa fa-link"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item carousel-container">
+                <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="portFolioSlideConfig">
+                    <div ngxSlickItem *ngFor="let portfolio2 of porfolio2SlideArr" class="slide">
+                        <img loading="lazy" src="{{ portfolio2.img }}" alt="" width="100%">
+                    </div>
+                </ngx-slick-carousel>
+            </div>
+            <div class="portfolio-item img-container">
+                <div class="portfolio-img"><img loading="lazy" src="../../../assets//images/port-img-6.jpg" /></div>
+                <div class="overlay-section">
+                    <div class="portfolio-description">
+                        <h3 class="animated-FadeInUp animatedFadeInUp fadeInUp animation-delay-200">Luxury Wine</h3>
+                        <span
+                            class="animated-FadeInUp animatedFadeInUp fadeInUp animation-delay-200">Graphics/Branding</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

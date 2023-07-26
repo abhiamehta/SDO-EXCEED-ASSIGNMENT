@@ -1,34 +1,32 @@
 .heading-text {
     margin-bottom: 30px;
 
-    &.heading-section {
-        h2 {
-            position: relative;
-            font-size: 48px;
-            line-height: 56px;
-            margin-bottom: 60px;
+    h2 {
+        position: relative;
+        font-size: 48px;
+        line-height: 56px;
+        margin-bottom: 60px;
 
+        &::before {
+            content: "";
+            position: absolute;
+            height: 2px;
+            width: 100px;
+            background-color: #2250fc;
+            bottom: -30px;
+            left: 0;
+            right: 0;
+        }
+
+        &.border-center {
             &::before {
-                content: "";
-                position: absolute;
-                height: 2px;
-                width: 100px;
-                background-color: #2250fc;
-                bottom: -30px;
-                left: 0;
-                right: 0;
-            }
-
-            &.border-center {
-                &::before {
-                    margin: 0 auto;
-                }
+                margin: 0 auto;
             }
         }
+    }
 
-        .lead {
-            font-weight: 400;
-        }
+    .lead {
+        font-weight: 400;
     }
 }
 
