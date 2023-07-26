@@ -8,15 +8,15 @@
         </div>
     </div>
     <div class="portfolio ">
-        <div class="portfolio-grid grid-layout ">
-            <div class="portfolio-item carousel-container">
+        <div class="portfolio-grid grid-layout row">
+            <div class="portfolio-item carousel-container col-lg-3 col-md-4 col-sm-2">
                 <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="portFolioSlideConfig">
                     <div ngxSlickItem *ngFor="let portfolio1 of porfolio1SlideArr" class="slide">
                         <img  src="{{ portfolio1.img }}" alt="" width="100%">
                     </div>
                 </ngx-slick-carousel>
             </div>
-            <div class="portfolio-item img-container">
+            <div class="portfolio-item img-container col-lg-3 col-md-4 col-sm-2">
                 <div class="portfolio-img"><img  src="assets/images/port-img-1.jpg" /></div>
                 <div class="overlay-section">
                     <div class="portfolio-nav-img-container">
@@ -29,7 +29,7 @@
                     </div>
                 </div>
             </div>
-            <div class="portfolio-item img-container">
+            <div class="portfolio-item img-container col-lg-3 col-md-4 col-sm-2">
                 <div class="portfolio-img"><img  src="assets/images/port-img-2.jpg" /></div>
                 <div class="overlay-section">
                     <div class="portfolio-description">
@@ -40,7 +40,7 @@
                     </div>
                 </div>
             </div>
-            <div class="portfolio-item img-container">
+            <div class="portfolio-item img-container col-lg-3 col-md-4 col-sm-2">
                 <div class="portfolio-img"><img  src="assets/images/port-img-3.jpg" /></div>
                 <div class="overlay-section">
                     <div class="portfolio-nav-img-container">
@@ -53,7 +53,7 @@
                     </div>
                 </div>
             </div>
-            <div class="portfolio-item img-container">
+            <div class="portfolio-item img-container col-lg-3 col-md-4 col-sm-2">
                 <div class="portfolio-img"><img  src="assets/images/port-img-4.jpg" /></div>
                 <div class="overlay-section">
                     <div class="overlay-section">
@@ -66,7 +66,7 @@
                     </div>
                 </div>
             </div>
-            <div class="portfolio-item img-container">
+            <div class="portfolio-item img-container col-lg-3 col-md-4 col-sm-2">
                 <div class="portfolio-img"><img  src="assets/images/port-img-5.jpg" /></div>
                 <div class="overlay-section">
                     <div class="portfolio-nav-img-container">
@@ -79,14 +79,14 @@
                     </div>
                 </div>
             </div>
-            <div class="portfolio-item carousel-container">
+            <div class="portfolio-item carousel-container col-lg-3 col-md-4 col-sm-2">
                 <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="portFolioSlideConfig">
                     <div ngxSlickItem *ngFor="let portfolio2 of porfolio2SlideArr" class="slide">
                         <img  src="{{ portfolio2.img }}" alt="" width="100%">
                     </div>
                 </ngx-slick-carousel>
             </div>
-            <div class="portfolio-item img-container">
+            <div class="portfolio-item img-container col-lg-3 col-md-4 col-sm-2">
                 <div class="portfolio-img"><img  src="assets/images/port-img-6.jpg" /></div>
                 <div class="overlay-section">
                     <div class="portfolio-description">

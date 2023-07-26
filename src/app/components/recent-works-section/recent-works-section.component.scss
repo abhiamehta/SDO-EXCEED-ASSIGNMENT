@@ -8,9 +8,12 @@
                 overflow: hidden;
                 display: flex;
                 flex-wrap: wrap;
-
+                &>*{
+                    padding: 0px;
+                    margin: 0px;
+                }
                 .portfolio-item {
-                    width: 25%;
+                    // width: 25%;
 
                     &.carousel-container {
                         ::ng-deep {
@@ -125,7 +128,7 @@
                                     width: 40px;
                                     transition: all 250ms ease-in-out 0s;
                                     background-color: #fff;
-                                    color: #484848;
+                                    color: #492a2a;
                                     border-radius: 50%;
                                     margin-right: 5px;
                                     display: flex;
