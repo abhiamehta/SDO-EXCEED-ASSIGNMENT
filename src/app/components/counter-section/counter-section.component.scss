@@ -2,8 +2,14 @@
     position: relative;
     padding: 150px 0;
     color: #fff;
-    .counter-section{
+
+    .counter-section {
         position: relative;
+
+        .icon {
+            margin-bottom: 16px;
+        }
+
         .counter {
             span {
                 font-size: 50px;
